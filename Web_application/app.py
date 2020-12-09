@@ -18,13 +18,13 @@ __author__ = 'ibininja'
 
 
 
-model = pickle.load(open('kmeans.pkl','rb'))
+model = pickle.load(open('./models/Kmeans.pkl','rb'))
 
-autoencoder= tf.keras.models.load_model('Autoencoder.hdf5')  #loading autoencoder
+autoencoder= tf.keras.models.load_model('./models/Autoencoder.hdf5')  #loading autoencoder
 
 encoder = Model(autoencoder.input, autoencoder.layers[3].output)   
 
-UPLOAD_FOLDER = 'templates'
+UPLOAD_FOLDER = './templates'
 
 app = Flask(__name__)
 run_with_ngrok(app)
