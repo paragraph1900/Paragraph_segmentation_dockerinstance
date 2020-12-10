@@ -1,6 +1,4 @@
 ## Paragraph Segmentation Using Semi-Supervised Deep Clustering Network
-
----
 #### Paragraph segmentation is a research work modeled and developed by a group of six people. This work is a part of academics for the Masters' degree in Web and Data-science. To get a gist of our work and application begin with the research paper.The main aim of our application is to extract the paragraphs in an ordered manner from a PDF document using Deep clustering network.
 
 ### Docker instance creation and steps involved to run the application in the docker container
