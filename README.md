@@ -4,8 +4,8 @@
 ### Docker instance creation and steps involved to run the application in the docker container
 * Download and unzip the repository (cloning is also possible)
 * Change current working directory to Web_application using **cd** command
-* Build the docker image using command ```docker build -t the_meanSquared_app .```
-* Run the docker image using command ```docker run -it -p 5000:5000 the_meanSquare_app```
+* Build the docker image using command ```docker build -t the_meansquared_app .```
+* Run the docker image using command ```docker run -it -p 5000:5000 the_meansquared_app```
 
    Now, on your screen you should be able to see the below line
    > Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
